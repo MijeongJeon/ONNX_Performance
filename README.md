@@ -24,8 +24,6 @@ Site : [https://algyan.connpass.com/event/258978/](https://algyan.connpass.com/e
  
 ### Tensorflow to ONNX
 ```python
-import tf2onnx
-
 !python -m tf2onnx.convert --saved-model tf_model --output onnx_model.onnx --opset 15 # version
 ```
 
